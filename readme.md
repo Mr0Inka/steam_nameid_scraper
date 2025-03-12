@@ -1,4 +1,4 @@
-# CS2 NameID Updater
+# steam_nameid_scraper (For CS2 items)
 
 A simple Node.js script to fetch and update the latest CS2 item name IDs, used for retrieving data from the Steam Market.
 
