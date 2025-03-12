@@ -90,11 +90,13 @@ const loop = async () => {
 
     counter++;
 
+    fs.writeJsonSync('./files/nameids.json', nameIdList, err => { })
+
     if (counter >= itemsToFill.length) {
         console.log("Finished!")
         process.exit()
     }
-    fs.writeJsonSync('./files/nameids.json', nameIdList, err => { })
+
     setTimeout(loop, 50)
 };
 
