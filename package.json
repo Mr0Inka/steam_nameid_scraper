@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
+    "needle": "^3.3.1"
+  }
+}
