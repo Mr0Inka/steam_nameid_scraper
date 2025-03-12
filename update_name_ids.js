@@ -95,7 +95,7 @@ const loop = async () => {
         process.exit()
     }
     fs.writeJsonSync('./files/nameids.json', nameIdList, err => { })
-    setTimeout(loop, 500)
+    setTimeout(loop, 50)
 };
 
 run();
